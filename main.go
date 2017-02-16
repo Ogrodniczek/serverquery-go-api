@@ -22,5 +22,5 @@ func main() {
 
 }
 var StatusHandler = http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("Hello API"))
+	w.Write([]byte("Call works!"))
 })
